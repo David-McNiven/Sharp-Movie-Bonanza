@@ -36,7 +36,7 @@
             // 
             // OKButton
             // 
-            this.OKButton.Location = new System.Drawing.Point(76, 51);
+            this.OKButton.Location = new System.Drawing.Point(80, 51);
             this.OKButton.Name = "OKButton";
             this.OKButton.Size = new System.Drawing.Size(75, 23);
             this.OKButton.TabIndex = 0;
@@ -46,7 +46,7 @@
             // ThankYouLabel
             // 
             this.ThankYouLabel.AutoSize = true;
-            this.ThankYouLabel.Location = new System.Drawing.Point(12, 9);
+            this.ThankYouLabel.Location = new System.Drawing.Point(29, 9);
             this.ThankYouLabel.Name = "ThankYouLabel";
             this.ThankYouLabel.Size = new System.Drawing.Size(181, 13);
             this.ThankYouLabel.TabIndex = 1;
@@ -64,7 +64,7 @@
             // StreamingLabel
             // 
             this.StreamingLabel.AutoSize = true;
-            this.StreamingLabel.Location = new System.Drawing.Point(12, 35);
+            this.StreamingLabel.Location = new System.Drawing.Point(9, 35);
             this.StreamingLabel.Name = "StreamingLabel";
             this.StreamingLabel.Size = new System.Drawing.Size(221, 13);
             this.StreamingLabel.TabIndex = 3;

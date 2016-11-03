@@ -16,5 +16,15 @@ namespace Sharp_Movie_Bonanza
         {
             InitializeComponent();
         }
+
+        private void CostLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MoviesComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

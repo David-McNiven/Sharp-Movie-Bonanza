@@ -100,7 +100,7 @@ namespace Sharp_Movie_Bonanza
         /// </summary>
         private void CalcTotal()
         {
-            double subtotal = Double.Parse(CostTextBox.Text);
+            double subtotal = Double.Parse(CostTextBox.Text.Substring(1));
             if (DVDTextBox.Visible)
             {
                 subtotal += 10;

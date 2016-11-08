@@ -117,7 +117,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "&About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -236,7 +236,7 @@
             this.DVDTextBox.Name = "DVDTextBox";
             this.DVDTextBox.Size = new System.Drawing.Size(70, 20);
             this.DVDTextBox.TabIndex = 15;
-            this.DVDTextBox.Text = "10.00";
+            this.DVDTextBox.Text = "$10.00";
             this.DVDTextBox.Visible = false;
             // 
             // DVDLabel
@@ -310,7 +310,7 @@
             this.CostTextBox.ReadOnly = true;
             this.CostTextBox.Size = new System.Drawing.Size(70, 20);
             this.CostTextBox.TabIndex = 7;
-            this.CostTextBox.Text = "0.00";
+            this.CostTextBox.Text = "$0.00";
             // 
             // CostLabel
             // 

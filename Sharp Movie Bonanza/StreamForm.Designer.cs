@@ -58,18 +58,18 @@
             this.ChargedCostLabel.AutoSize = true;
             this.ChargedCostLabel.Location = new System.Drawing.Point(12, 22);
             this.ChargedCostLabel.Name = "ChargedCostLabel";
-            this.ChargedCostLabel.Size = new System.Drawing.Size(214, 13);
+            this.ChargedCostLabel.Size = new System.Drawing.Size(175, 13);
             this.ChargedCostLabel.TabIndex = 2;
-            this.ChargedCostLabel.Text = "Your credit card has Been charged $[15.99]";
+            this.ChargedCostLabel.Text = "Your credit card has Been charged ";
             // 
             // StreamingLabel
             // 
             this.StreamingLabel.AutoSize = true;
             this.StreamingLabel.Location = new System.Drawing.Point(9, 35);
             this.StreamingLabel.Name = "StreamingLabel";
-            this.StreamingLabel.Size = new System.Drawing.Size(221, 13);
+            this.StreamingLabel.Size = new System.Drawing.Size(162, 13);
             this.StreamingLabel.TabIndex = 3;
-            this.StreamingLabel.Text = "[Your movie] will begin streaming momentarily.";
+            this.StreamingLabel.Text = " will begin streaming momentarily.";
             // 
             // StreamForm
             // 
@@ -87,6 +87,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Order Successful!";
+            this.Load += new System.EventHandler(this.StreamForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

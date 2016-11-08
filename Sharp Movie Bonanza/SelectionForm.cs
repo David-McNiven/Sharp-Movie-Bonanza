@@ -39,8 +39,8 @@ namespace Sharp_Movie_Bonanza
         /// </summary>
         private void CheckCategory()
         {
-            String[] SciFi = { "Season of The Witch", "I am Number Four" };
-            String[] Action = { "Death race 2", "Sanctum", "The Eagle", "The Green Hornet", "The Mechanic", "The Other Woman" };
+            String[] SciFi = { "Season of the Witch", "I am Number Four" };
+            String[] Action = { "Death Race 2", "Sanctum", "The Eagle", "The Green Hornet", "The Mechanic", "The Other Woman" };
             String[] Comedy = { "The Dilemma", "No Strings Attached", "Cedar Rapids", "Just Go With It" };
             String[] Drama = { "Company Men", "The Way Back", "Waiting for Forever" };
             String[] Family = { "Gnomeo and Juliet" };
@@ -94,19 +94,19 @@ namespace Sharp_Movie_Bonanza
 
             if (OneDollar.Contains(CategoryTextBox.Text))
             {
-                CostTextBox.Text = "0.99";
+                CostTextBox.Text = "$0.99";
             }
             else if (TwoDollar.Contains(CategoryTextBox.Text))
             {
-                CostTextBox.Text = "1.99";
+                CostTextBox.Text = "$1.99";
             }
             else if (ThreeDollar.Contains(CategoryTextBox.Text))
             {
-                CostTextBox.Text = "2.99";
+                CostTextBox.Text = "$2.99";
             }
             else if (FiveDollar.Contains(CategoryTextBox.Text))
             {
-                CostTextBox.Text = "4.99";
+                CostTextBox.Text = "$4.99";
             }
         }
 

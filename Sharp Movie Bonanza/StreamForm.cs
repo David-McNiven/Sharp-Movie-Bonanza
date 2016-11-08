@@ -21,5 +21,12 @@ namespace Sharp_Movie_Bonanza
         {
             Application.Exit();
         }
+
+        private void StreamForm_Load(object sender, EventArgs e)
+        {
+            String[] movie = Program.movie;
+            ChargedCostLabel.Text += movie[2];
+            StreamingLabel.Text = String.Concat(movie[0], StreamingLabel.Text);
+        }
     }
 }

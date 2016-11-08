@@ -107,7 +107,7 @@
             this.CostTextBox.ReadOnly = true;
             this.CostTextBox.Size = new System.Drawing.Size(116, 20);
             this.CostTextBox.TabIndex = 5;
-            this.CostTextBox.Text = "$0.00";
+            this.CostTextBox.Text = "0.00";
             // 
             // CategoryTextBox
             // 

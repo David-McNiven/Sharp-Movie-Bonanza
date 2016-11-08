@@ -16,5 +16,10 @@ namespace Sharp_Movie_Bonanza
         {
             InitializeComponent();
         }
+
+        private void OKButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

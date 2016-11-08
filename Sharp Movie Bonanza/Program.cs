@@ -8,6 +8,8 @@ namespace Sharp_Movie_Bonanza
 {
     static class Program
     {
+        public static String[] movie = new String[3];
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +18,7 @@ namespace Sharp_Movie_Bonanza
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SelectionForm());
+            Application.Run(new SplashForm());
         }
     }
 }

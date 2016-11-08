@@ -132,6 +132,7 @@
             this.StreamButton.TabIndex = 2;
             this.StreamButton.Text = "Stream";
             this.StreamButton.UseVisualStyleBackColor = true;
+            this.StreamButton.Click += new System.EventHandler(this.StreamButton_Click);
             // 
             // MovieSelectedGroupBox
             // 
@@ -149,9 +150,11 @@
             // 
             // YourSelectionPictureBox
             // 
+            this.YourSelectionPictureBox.InitialImage = null;
             this.YourSelectionPictureBox.Location = new System.Drawing.Point(9, 95);
             this.YourSelectionPictureBox.Name = "YourSelectionPictureBox";
             this.YourSelectionPictureBox.Size = new System.Drawing.Size(150, 175);
+            this.YourSelectionPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.YourSelectionPictureBox.TabIndex = 11;
             this.YourSelectionPictureBox.TabStop = false;
             // 
@@ -160,7 +163,7 @@
             this.CategoryTextBox.Location = new System.Drawing.Point(9, 69);
             this.CategoryTextBox.Name = "CategoryTextBox";
             this.CategoryTextBox.ReadOnly = true;
-            this.CategoryTextBox.Size = new System.Drawing.Size(100, 20);
+            this.CategoryTextBox.Size = new System.Drawing.Size(116, 20);
             this.CategoryTextBox.TabIndex = 10;
             // 
             // TitleLabel
@@ -186,7 +189,7 @@
             this.TitleTextBox.Location = new System.Drawing.Point(9, 30);
             this.TitleTextBox.Name = "TitleTextBox";
             this.TitleTextBox.ReadOnly = true;
-            this.TitleTextBox.Size = new System.Drawing.Size(100, 20);
+            this.TitleTextBox.Size = new System.Drawing.Size(116, 20);
             this.TitleTextBox.TabIndex = 9;
             this.TitleTextBox.TextChanged += new System.EventHandler(this.TitleTextBox_TextChanged);
             // 
@@ -316,6 +319,7 @@
             this.BackButton.TabIndex = 11;
             this.BackButton.Text = "Back";
             this.BackButton.UseVisualStyleBackColor = true;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
             // 
             // OrderForm
             // 
@@ -336,6 +340,7 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Order Details";
+            this.Load += new System.EventHandler(this.OrderForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.MovieSelectedGroupBox.ResumeLayout(false);

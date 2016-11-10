@@ -9,6 +9,13 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Sharp movie Bonanza
+/// Created by David McNiven
+/// Student # 200330143
+/// Created on November 11th 2016
+/// A simple multiform program that simulates the process of ordering a movie off of a streaming service
+/// </summary>
 namespace Sharp_Movie_Bonanza
 {
     public partial class SelectionForm : Form

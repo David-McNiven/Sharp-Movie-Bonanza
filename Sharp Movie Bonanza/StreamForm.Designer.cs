@@ -36,7 +36,7 @@
             // 
             // OKButton
             // 
-            this.OKButton.Location = new System.Drawing.Point(80, 51);
+            this.OKButton.Location = new System.Drawing.Point(95, 73);
             this.OKButton.Name = "OKButton";
             this.OKButton.Size = new System.Drawing.Size(75, 23);
             this.OKButton.TabIndex = 0;
@@ -47,35 +47,35 @@
             // ThankYouLabel
             // 
             this.ThankYouLabel.AutoSize = true;
-            this.ThankYouLabel.Location = new System.Drawing.Point(29, 9);
+            this.ThankYouLabel.Location = new System.Drawing.Point(12, 9);
             this.ThankYouLabel.Name = "ThankYouLabel";
-            this.ThankYouLabel.Size = new System.Drawing.Size(181, 13);
+            this.ThankYouLabel.Size = new System.Drawing.Size(212, 13);
             this.ThankYouLabel.TabIndex = 1;
-            this.ThankYouLabel.Text = "Thank you for using Movie Bonanza!";
+            this.ThankYouLabel.Text = "Thank you for using Sharp Movie Bonanza!";
             // 
             // ChargedCostLabel
             // 
             this.ChargedCostLabel.AutoSize = true;
-            this.ChargedCostLabel.Location = new System.Drawing.Point(12, 22);
+            this.ChargedCostLabel.Location = new System.Drawing.Point(12, 27);
             this.ChargedCostLabel.Name = "ChargedCostLabel";
-            this.ChargedCostLabel.Size = new System.Drawing.Size(175, 13);
+            this.ChargedCostLabel.Size = new System.Drawing.Size(174, 13);
             this.ChargedCostLabel.TabIndex = 2;
-            this.ChargedCostLabel.Text = "Your credit card has Been charged ";
+            this.ChargedCostLabel.Text = "Your credit card has been charged ";
             // 
             // StreamingLabel
             // 
             this.StreamingLabel.AutoSize = true;
-            this.StreamingLabel.Location = new System.Drawing.Point(9, 35);
+            this.StreamingLabel.Location = new System.Drawing.Point(12, 45);
             this.StreamingLabel.Name = "StreamingLabel";
-            this.StreamingLabel.Size = new System.Drawing.Size(162, 13);
+            this.StreamingLabel.Size = new System.Drawing.Size(137, 13);
             this.StreamingLabel.TabIndex = 3;
-            this.StreamingLabel.Text = " will begin streaming momentarily.";
+            this.StreamingLabel.Text = " will begin streaming shortly.";
             // 
             // StreamForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(238, 80);
+            this.ClientSize = new System.Drawing.Size(264, 108);
             this.ControlBox = false;
             this.Controls.Add(this.StreamingLabel);
             this.Controls.Add(this.ChargedCostLabel);

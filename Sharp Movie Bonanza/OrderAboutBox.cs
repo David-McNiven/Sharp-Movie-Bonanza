@@ -7,6 +7,13 @@ using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Sharp movie Bonanza
+/// Created by David McNiven
+/// Student # 200330143
+/// Created on November 11th 2016
+/// A simple multiform program that simulates the process of ordering a movie off of a streaming service
+/// </summary>
 namespace Sharp_Movie_Bonanza
 {
     partial class OrderAboutBox : Form
@@ -18,8 +25,6 @@ namespace Sharp_Movie_Bonanza
             this.labelProductName.Text = AssemblyProduct;
             this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
             this.labelCopyright.Text = AssemblyCopyright;
-            this.labelCompanyName.Text = AssemblyCompany;
-            this.textBoxDescription.Text = AssemblyDescription;
         }
 
         #region Assembly Attribute Accessors
@@ -102,6 +107,11 @@ namespace Sharp_Movie_Bonanza
         }
         #endregion
 
+        /// <summary>
+        /// returns to the OrderForm when ok button is clicked
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void okButton_Click(object sender, EventArgs e)
         {
             this.Close();

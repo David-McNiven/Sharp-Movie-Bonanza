@@ -173,6 +173,16 @@ namespace Sharp_Movie_Bonanza.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap SharpMovieLogo {
+            get {
+                object obj = ResourceManager.GetObject("SharpMovieLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap TheDilemma {
             get {
                 object obj = ResourceManager.GetObject("TheDilemma", resourceCulture);

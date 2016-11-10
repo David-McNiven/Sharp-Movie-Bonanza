@@ -58,6 +58,7 @@
             this.CostLabel = new System.Windows.Forms.Label();
             this.BackButton = new System.Windows.Forms.Button();
             this.OrderPrintPreviewDialog = new System.Windows.Forms.PrintPreviewDialog();
+            this.DividerLabel = new System.Windows.Forms.Label();
             this.OrderMenuStrip.SuspendLayout();
             this.MovieSelectedGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.YourSelectionPictureBox)).BeginInit();
@@ -201,6 +202,7 @@
             // 
             // YourOrderGroupBox
             // 
+            this.YourOrderGroupBox.Controls.Add(this.DividerLabel);
             this.YourOrderGroupBox.Controls.Add(this.DVDCheckBox);
             this.YourOrderGroupBox.Controls.Add(this.DVDTextBox);
             this.YourOrderGroupBox.Controls.Add(this.DVDLabel);
@@ -214,7 +216,7 @@
             this.YourOrderGroupBox.Controls.Add(this.CostLabel);
             this.YourOrderGroupBox.Location = new System.Drawing.Point(188, 28);
             this.YourOrderGroupBox.Name = "YourOrderGroupBox";
-            this.YourOrderGroupBox.Size = new System.Drawing.Size(191, 192);
+            this.YourOrderGroupBox.Size = new System.Drawing.Size(191, 224);
             this.YourOrderGroupBox.TabIndex = 4;
             this.YourOrderGroupBox.TabStop = false;
             this.YourOrderGroupBox.Text = "Your Order";
@@ -222,7 +224,7 @@
             // DVDCheckBox
             // 
             this.DVDCheckBox.AutoSize = true;
-            this.DVDCheckBox.Location = new System.Drawing.Point(10, 169);
+            this.DVDCheckBox.Location = new System.Drawing.Point(10, 190);
             this.DVDCheckBox.Name = "DVDCheckBox";
             this.DVDCheckBox.Size = new System.Drawing.Size(180, 17);
             this.DVDCheckBox.TabIndex = 16;
@@ -251,7 +253,7 @@
             // 
             // GrandTotalTextBox
             // 
-            this.GrandTotalTextBox.Location = new System.Drawing.Point(114, 127);
+            this.GrandTotalTextBox.Location = new System.Drawing.Point(114, 138);
             this.GrandTotalTextBox.Name = "GrandTotalTextBox";
             this.GrandTotalTextBox.ReadOnly = true;
             this.GrandTotalTextBox.Size = new System.Drawing.Size(70, 20);
@@ -261,7 +263,7 @@
             // GrandTotalLabel
             // 
             this.GrandTotalLabel.AutoSize = true;
-            this.GrandTotalLabel.Location = new System.Drawing.Point(7, 130);
+            this.GrandTotalLabel.Location = new System.Drawing.Point(7, 141);
             this.GrandTotalLabel.Name = "GrandTotalLabel";
             this.GrandTotalLabel.Size = new System.Drawing.Size(63, 13);
             this.GrandTotalLabel.TabIndex = 12;
@@ -269,7 +271,7 @@
             // 
             // SalesTaxTextBox
             // 
-            this.SalesTaxTextBox.Location = new System.Drawing.Point(114, 99);
+            this.SalesTaxTextBox.Location = new System.Drawing.Point(114, 109);
             this.SalesTaxTextBox.Name = "SalesTaxTextBox";
             this.SalesTaxTextBox.ReadOnly = true;
             this.SalesTaxTextBox.Size = new System.Drawing.Size(70, 20);
@@ -279,7 +281,7 @@
             // SalesTaxLabel
             // 
             this.SalesTaxLabel.AutoSize = true;
-            this.SalesTaxLabel.Location = new System.Drawing.Point(6, 103);
+            this.SalesTaxLabel.Location = new System.Drawing.Point(7, 112);
             this.SalesTaxLabel.Name = "SalesTaxLabel";
             this.SalesTaxLabel.Size = new System.Drawing.Size(83, 13);
             this.SalesTaxLabel.TabIndex = 10;
@@ -342,6 +344,14 @@
             this.OrderPrintPreviewDialog.Name = "OrderPrintPreviewDialog";
             this.OrderPrintPreviewDialog.ShowIcon = false;
             this.OrderPrintPreviewDialog.Visible = false;
+            // 
+            // DividerLabel
+            // 
+            this.DividerLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.DividerLabel.Location = new System.Drawing.Point(9, 100);
+            this.DividerLabel.Name = "DividerLabel";
+            this.DividerLabel.Size = new System.Drawing.Size(174, 2);
+            this.DividerLabel.TabIndex = 17;
             // 
             // OrderForm
             // 
@@ -406,5 +416,6 @@
         private System.Windows.Forms.Label CostLabel;
         private System.Windows.Forms.CheckBox DVDCheckBox;
         private System.Windows.Forms.PrintPreviewDialog OrderPrintPreviewDialog;
+        private System.Windows.Forms.Label DividerLabel;
     }
 }
